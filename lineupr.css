@@ -1,0 +1,57 @@
+.running-order {
+    border: 1px solid red;
+    width: 1500px;
+}
+
+.hours {
+    height: 100%;
+    width: 60px;
+    float: left;
+    position: absolute;
+    margin-top: 70px;
+}
+
+.hour {
+    float: none;
+    /*height: 49px;*/
+    height: 120px;
+    width: 60px;
+    border: 1px solid cyan;
+}
+
+.stages {
+    margin-left: 70px;
+}
+
+.stage {
+    height: inherit;
+    float: left;
+    width: 139px;
+    //margin-right: 10px;
+}
+
+.stage-title {
+    margin-left: 25px;
+}
+
+.artists {
+  background-color: lightyellow;
+}
+
+
+.artist {
+  position:absolute;
+  border: 1px solid gray;
+  border-radius: 2px
+  float: none;
+  font-size: 12px;
+  width: 139px;
+  padding: 0px;
+}
+
+
+.artist span {
+    vertical-align: middle;
+    display: inline-block;
+    line-height: normal;
+}
