@@ -253,6 +253,54 @@ var schedule={
                     ]
                 }
             ]
-        }
+        }, // end of 2015-07-29
+        {
+            event_date: new Date("2015-07-30"),
+            running_order: 
+            [
+                {
+                    stage_name:"Black Stage"
+                    acts:
+                    [
+                        {
+                            act: "Skyline",
+                            start_time: "1500",
+                            end_time: "1545"
+                        },
+                        {
+                            act: "In Extremo",
+                            start_time: "1745",
+                            end_time: "1905"
+                        },
+                        {
+                            act: "Trans-Siberian Orchestra",
+                            start_time: "2145",
+                            end_time: "000"
+                        }
+                    ]
+                },
+                {
+                    stage_name: "True Metal Stage",
+                    acts:
+                    [
+                        {
+                            act: "U.D.O. with Bundeswehr Musikkorps",
+                            start_time: "1600",
+                            end_time: "1730"
+                        },
+                        {
+                            act: "Rob Zombie",
+                            start_time: "1920",
+                            end_time: "2050"
+                        },
+                        {
+                            act: "Savatage",
+                            start_time: "2145",
+                            end_time: "0000"
+                        },
+                    ]
+                },
+            ]
+        } // end of 2015-07-30
     ]
 };

@@ -6,7 +6,7 @@ $(document).ready(function(){
     // Create the Hours div
   
     var div_hours = $('<div></div>').addClass('hours');
-    for (i = 10; i <= 28; i++) {
+    for (i = 10; i <= 27; i++) {
         // hacky!
         var hour = i < 24 ? i : i - 24;
         
