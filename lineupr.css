@@ -1,5 +1,8 @@
+body {
+    background-color: black;
+}
+
 .running-order {
-    border: 1px solid red;
     width: 1500px;
 }
 
@@ -16,7 +19,8 @@
     /*height: 49px;*/
     height: 120px;
     width: 60px;
-    border: 1px solid cyan;
+    border: 1px solid #016fd4;
+    color: white;
 }
 
 .stages {
@@ -32,21 +36,19 @@
 
 .stage-title {
     margin-left: 25px;
+    color: #016fd4;
 }
-
-.artists {
-  background-color: lightyellow;
-}
-
 
 .artist {
   position:absolute;
-  border: 1px solid gray;
+  border: 1px solid #016fd4;
   border-radius: 2px
   float: none;
   font-size: 12px;
   width: 139px;
   padding: 0px;
+  background-color: #5fa4dc;
+  color: white;
 }
 
 
@@ -54,4 +56,22 @@
     vertical-align: middle;
     display: inline-block;
     line-height: normal;
+}
+
+/*Bootstrap override*/
+
+.nav-tabs .active a {
+    border-color: #016fd4;
+}
+
+.nav-tabs {
+    border-bottom-color: #016fd4;
+    text-align:center;
+}
+
+.nav-tabs > li {
+    float:none;
+    display:inline-block;
+    *display:inline; /* ie7 fix */
+     zoom:1; /* hasLayout ie7 trigger */
 }
