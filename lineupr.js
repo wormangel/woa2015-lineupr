@@ -70,7 +70,7 @@ $(document).ready(function(){
                 div_act.append(p_act);
                 div_act.css('top', $('.hour[data-time="' + hour_round(act.start_time) + '"]').offset().top + minutes_offset(act.start_time));
                 div_act.css('height', act_duration(act.start_time, act.end_time) * 2);
-                div_act.css('width', $('.stage[data-name="'+ stage.stage_name +'"] .artists').width());
+                div_act.css('width', $('.stage[data-name="'+ stage.stage_name +'"]').width());
             
                 div_event_day.find('.stage[data-name="'+ stage.stage_name +'"]').append(div_act);
             });
